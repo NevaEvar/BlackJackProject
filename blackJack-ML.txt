@@ -1,0 +1,65 @@
+Tavoite ennustaa seuraavan kortin kannattavuus.
+Tavat:
+1. Ensin ennustaa mikä mahdollisuus on kahdella ensimmäisellä kortilla.
+Sen jälkeen tarkista onko kolmen ensimmäisen kortin ennustus suotuisa ja sen pohjalta
+ilmoita onko seuraava kortti hyvä nostaa.
+
+2. Selvitä miten voit ottaa ml toiminnan ja siirtää sen toiseen ohjelmaan.
+Ja aloita tekemään black jack peliä.
+
+(tarkkuus siitä onko voitta, tasapeli vai häviö)
+kahden ensimmäisen kortin ennustus on:
+0.6779555555555555
+
+Kolmen ensimmäisen kortin ennustus on:
+0.7896111111111112
+
+Neljän ensimmäisen kortin ennustus on: 
+0.9192555555555556
+
+Viiden ensimmäisen kortin ennustus on:
+0.9444111111111111
+
+3. Seuraavaksi aloita tekemään black jack peliä joko tkinterin tai pygamein avulla.
+Tavoite: tehdä helposti modifoitava black jack peli, joka ennustaa voitatko onko tasa peli vai häviätkö.
+Ennen kuin aloitat opettele käyttämään config, jotta voit päivitää gui:n helpommin.
+Opettele myös miten voit kutsua toisen tiedoston ohjelman/scriptin nykyiseen tiedostoon.
+
+4. Pelin tekeminen on aloitettu muutama glitchi, jotka on helppo korjata tsekkaa koodin kommenteista.
+
+5. Peli loopin tekeminen ja suunnitelu vaiheessa nyt. (kun ei ole pelaajan vuoro poista niiden peli napit.)
+
+6. Pisteiden ylös laitto ja pisteiden tarkistus sekä dealerin kahden ensimmäisen kortin tarkastaminen
+
+7. kortit löytyy kansiosta "cards" 
+
+8. korttien koko 
+	vaaka: 208
+	pysty: 301
+värit
+	tumma violetti = 0f002c
+	violetti = 1e0058
+	vaalea violetti = 650086
+	vaalein violetti = 9b00ce
+	oranssi = bc0000
+	vaalea oranssi = ef6a00
+	tumma oranssi = 8f0000
+pixelin koko piiroksessa = 2
+pixelin koko numeroissa = 5
+pixelin koko kehyksessä = 15
+
+9. Tapa miten voit importata kuvat on selvitetty löytyy tiedostosta image_test
+toista sama prosessi kaikille korteille mitä käytät ja tee siitä yksin kertaisempi
+
+10. numerot on nyt vaihdettu kuvilla, jotka ovat objectin atribuuteja 
+seuraavaksi pitäisi luoda peli looppi, ja pisteiden yllä pito
+sen jälkeen voisi kehittää piste systeemin
+
+11. Ml ongelma ratkaistu eli ylimääräinen variable on löydetty
+
+12. Perus gameplay looppi on tehty ainut mikä pitää lisätä on double tominto ja ehkä
+(automaattinen kahden kortin jako.)
+
+13. kaikki ennustukset pitää lähteä dealerin toisesta kortista ja pelaajan muista korteista.
+
+
